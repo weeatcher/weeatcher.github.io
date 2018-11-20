@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./static/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "es6",
+        "jsx": "react",
+        "allowJs": true
+    },
+    "types": [
+        "react",
+        "react-dom"
+    ],
+    "filesGlob": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
+    "exclude": [
+        "./static",
+        "node_modules"
+    ]
+}
